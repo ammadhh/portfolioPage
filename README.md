@@ -1,30 +1,44 @@
-# Portfolio web page design
+# 💼 Personal Dynamic Portfolio
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A visually stunning, interactive portfolio website with a clean admin panel for adding and editing projects and past experiences — all without a database.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ammadhumichedus-projects/v0-portfolio-web-page-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/RGuPI03z3GZ)
+## ✨ Features
 
-## Overview
+- 🧑‍💻 **Projects Section**  
+  Beautiful, animated grid of project cards with:
+  - Title, description, image/screenshot
+  - GitHub and live demo links
+  - Hover effects and fade-in animations
+  - Editable (add/edit/delete) when logged in
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- 🕒 **Past Experience Section**  
+  Timeline or stacked-card layout showing past job roles, companies, and achievements.  
+  - Editable when logged in
+  - Optional logos, bullet-point achievements
+  - Slide/fade animations
 
-## Deployment
+- 🔐 **Secure Admin Login (No DB Needed)**  
+  - Click the small lock icon in the top-right corner to login
+  - Once logged in:
+    - Add/edit/delete projects and experiences
+    - Changes persist during session (in memory/localStorage)
 
-Your project is live at:
+- 🌙 **Dark Mode Toggle**
+- 📱 Fully responsive
+- ⚡ Smooth animations and transitions throughout
 
-**[https://vercel.com/ammadhumichedus-projects/v0-portfolio-web-page-design](https://vercel.com/ammadhumichedus-projects/v0-portfolio-web-page-design)**
+---
 
-## Build your app
+## 🛠 Getting Started
 
-Continue building your app on:
+### ⚙️ Requirements
 
-**[https://v0.dev/chat/projects/RGuPI03z3GZ](https://v0.dev/chat/projects/RGuPI03z3GZ)**
+- [nvm](https://github.com/nvm-sh/nvm)
+- Node.js `v22.0.0`
 
-## How It Works
+### 🔧 Installation
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+nvm use 22.0.0
+npm install --legacy-peer-deps
+npm run dev
